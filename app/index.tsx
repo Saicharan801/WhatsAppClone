@@ -1,0 +1,15 @@
+import React from "react";
+import { registerRootComponent } from "expo";
+import MainNavigator from "../navigation/MainNavigator";
+import { NavigationContainer } from "@react-navigation/native";
+
+const App=() =>{
+  
+
+  return (
+    <NavigationContainer>
+    <MainNavigator />;
+  </NavigationContainer>
+  );
+}
+registerRootComponent(App);
